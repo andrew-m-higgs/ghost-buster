@@ -1,3 +1,48 @@
+@import "global.css";
+
+:root {
+  --bg-color  : #F90;
+  --bg-light  : #BBB;
+  --bg-lighter: #FFF;
+  --bg-dark   : #333;
+  --bg-darker : #111;
+  --bg-primary: #903#;
+  --bg-secondary: #330;
+
+  --font-dark : #BBB; //color of font when bg is dark
+  --font-light: #333; //color of font when bg is light
+}
+
+body {
+  background-color: var(--bg-light);
+}
+
+h3 {
+  color: var(--bg-primary);
+}
+
+#gb-head {
+  background-color: var(--bg-darker);
+  display: flex;
+}
+
+#gb-head li {
+  display: inline;
+  list-style: none;
+}
+
+#gb-head a {
+  margin: 0;
+  background-color: var(--bg-darker);
+  color: var(--font-dark);
+  padding: 5px;
+}
+
+#gb-head li:hover, #gb-head a:hover {
+  background-color: var(--bg-lighter);
+  color: var(--font-light);
+}
+
 .kg-width-wide {
 }
 
