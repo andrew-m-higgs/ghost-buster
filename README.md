@@ -1,2 +1,2 @@
 # ghost-buster
-A fairly minimal theme for Ghost.
+A minimal theme for Ghost.
