@@ -1,0 +1,17 @@
+{{!< default}}
+
+<main id="site-main" class="site-main outer">
+    <div class="inner posts">
+
+        <div class="post-feed">
+            {{#foreach posts}}
+
+                {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+                <h3>{{title}}</h3>
+                <div style="width:50vw;text-align:justify">{{excerpt}}</div>
+                <a href="{{url}}">Read more...</a>
+            {{/foreach}}
+        </div>
+
+    </div>
+</main>
